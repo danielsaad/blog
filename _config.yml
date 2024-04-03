@@ -8,3 +8,18 @@ title: "Blog"
 description: ""
 author: danielsaad
 instagram:
+
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      mathjax: true
