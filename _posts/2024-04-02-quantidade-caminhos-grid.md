@@ -25,7 +25,7 @@ Como chegar nesse número?
 ## Solução por programação dinâmica
 
 Podemos resolver isso através de programação dinâmica. Obviamente o número de caminho a partir da posição $A$ para posição $A$ é $1$. O número de caminhos de $A$ para qualquer célula na linha de $A$ ou na coluna de $A$ também é $1$, pois para chegar nelas, bastar ir apenas para a direita, no primeiro caso, ou para baixo, no segundo caso.
-Para uma célula qualquer, na posição $(i,j)$ da matriz, o número de caminhos equivale à soma dos caminhos do ponto inicial até $(i-1,j)$ somados com o número de caminhos do ponto inicial até $(i,j-1)$, o que nos dá o seguinte algoritmo:
+Para uma célula qualquer, na posição $(i,j)$ da matriz, o número de caminhos equivale à soma dos caminhos do ponto inicial até $(i-1,j)$ com o número de caminhos do ponto inicial até $(i,j-1)$, o que nos dá o seguinte algoritmo:
 
 ```cpp
 matrix[0][0] = 1;
