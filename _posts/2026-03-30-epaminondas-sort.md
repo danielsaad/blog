@@ -2,8 +2,8 @@
 layout: post
 title:  "Epaminondas Sort"
 author: danielsaad
-excerpt: Quantos caminhos 
-tags: dynamic-programming
+excerpt: epaminondas-sort 
+tags: algorithm-analysis
 math: true
 ---
 
